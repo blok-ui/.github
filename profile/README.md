@@ -2,6 +2,8 @@
 
 A reactive UI framework for Haxe.
 
+Here's a simple example:
+
 ```haxe
 import blok.ui.*;
 import blok.html.Html;
