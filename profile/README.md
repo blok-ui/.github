@@ -5,13 +5,11 @@ A reactive UI framework for Haxe.
 Here's a simple example:
 
 ```haxe
-import blok.ui.*;
-import blok.html.Html;
-import blok.html.Client.mount;
+import blok.*;
+import blok.html.*;
 
 function main() {
-  var root = js.Browser.document.getElementById('root');
-  mount(root, Counter.node({}));
+  Client.mount('#root', Counter.node({}));
 }
 
 class Counter extends Component {
